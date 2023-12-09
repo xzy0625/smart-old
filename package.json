@@ -1,0 +1,26 @@
+{
+  "name": "smart-old",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "csu-xzy",
+  "description": "智慧养老app介绍",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xzy0625/smart-old"
+  },
+  "keywords": [
+    "vitepress",
+    "blog",
+    "typescript",
+    "githu pages"
+  ],
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.5"
+  }
+}
