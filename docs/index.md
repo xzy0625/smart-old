@@ -1,27 +1,27 @@
-# Hello VitePress
+---
+layout: home
 
-## 聊天管理
-
-### 好友列表
-
-<img src="./assets/image-20231209205924625.png" alt="image-20231209205924625" style="zoom:50%;" />
-
-### 添加好友
-
-<img src="./assets/image-20231209205902099.png" alt="image-20231209205902099" style="zoom:50%;" />
-
-### 聊天主页
-
-<img src="./assets/image-20231209210113617.png" alt="image-20231209210113617" style="zoom:50%;" />
-
-### 好友聊天页面
-
-<img src="./assets/image-20231209210058089.png" alt="image-20231209210058089" style="zoom:50%;" />
-
-## 首页
-
-<img src="./assets/image-20231209210134341.png" alt="image-20231209210134341" style="zoom:50%;" />
-
-### 阅读文章
-
-<img src="./assets/image-20231209210159277.png" alt="image-20231209210159277" style="zoom:50%;" />
+hero:
+  name: 基于uniapp的智慧养老平台
+  text: vue全栈开发，一套代码多端使用
+  image:
+    src: /images/logo.png
+    alt: VitePress
+  actions:
+    - theme: brand
+      text: 立即下载
+      link: https://share.weiyun.com/6ybgtv8Y
+    - theme: alt
+      text: 介绍文档
+      link: /blogs/introduction/
+features:
+  - icon: ⚡️
+    title: vue全栈开发
+    details: vue + koa + mongodb全栈开发
+  - icon: 🛠️
+    title: uniapp实现跨平台
+    details: 一套代码，多端使用
+  - icon: 🖖
+    title: 功能丰富
+    details: 养老功能丰富
+---

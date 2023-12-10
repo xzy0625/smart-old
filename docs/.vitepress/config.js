@@ -11,7 +11,7 @@ export default {
     },
     nav: [
       // 页面右上角的导航
-      // { text: "blog1", link: "/blogs/blog1/" },
+      { text: "⬇️立即下载", link: "https://share.weiyun.com/6ybgtv8Y" },
       // { text: "blog2", link: "/blogs/blog2/" },
       {
         text: "其他",
@@ -22,48 +22,60 @@ export default {
         ],
       },
     ],
-    sidebar: {
+    sidebar: [
       // 侧边栏，可以分组
       // 当用户在 `blogs` 目录页面下将会展示这个侧边栏
-      // "/blogs/blog1/": [
-      //   {
-      //     text: "blog1",
-      //     items: [
-      //       {
-      //         text: "index",
-      //         link: "/blogs/blog1/",
-      //       },
-      //       {
-      //         text: "fisrt",
-      //         link: "/blogs/blog1/first",
-      //       },
-      //       {
-      //         text: "second",
-      //         link: "/blogs/blog1/second",
-      //       },
-      //     ],
-      //   },
-      // ],
-      // "/blogs/blog2/": [
-      //   {
-      //     text: "blog2",
-      //     items: [
-      //       {
-      //         text: "index",
-      //         link: "/blogs/blog2/",
-      //       },
-      //       {
-      //         text: "first",
-      //         link: "/blogs/blog2/first",
-      //       },
-      //       {
-      //         text: "second",
-      //         link: "/blogs/blog2/second",
-      //       },
-      //     ],
-      //   },
-      // ],
-    },
+      // {
+      //   text: "下载",
+      //   link: "/blogs/download/",
+      // },
+      {
+        text: "app介绍",
+        collapsed: false,
+        items: [
+          {
+            text: "app介绍",
+            link: "/blogs/introduction/",
+          },
+          {
+            text: "登录注册",
+            link: "/blogs/introduction/login",
+          },
+          {
+            text: "首页",
+            link: "/blogs/introduction/main",
+          },
+          {
+            text: "文章",
+            link: "/blogs/introduction/article",
+          },
+          {
+            text: "视频",
+            link: "/blogs/introduction/video",
+          },
+          {
+            text: "天气",
+            link: "/blogs/introduction/weather",
+          },
+          {
+            text: "聊天机器人",
+            link: "/blogs/introduction/chatBot",
+          },
+          {
+            text: "机构管理",
+            link: "/blogs/introduction/org",
+          },
+          {
+            text: "好友聊天",
+            link: "/blogs/introduction/message",
+          },
+          {
+            text: "用户信息",
+            link: "/blogs/introduction/user",
+          },
+        ],
+      },
+    ],
     docFooter: { prev: '上一篇', next: '下一篇' },
     footer: {
       message: 'Released under the MIT License.',
